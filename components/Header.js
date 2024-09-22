@@ -6,7 +6,7 @@ function Header() {
       <div className="cursor-pointer">
         <h2 className="text-xl font-bold">PLTU</h2>
       </div>
-      <div className="flex gap-x-6 sm:gap-x-10 text-xs sm:text-sm lg:text-base">
+      <div className="flex gap-x-6 sm:gap-x-10 text-xs sm:text-sm lg:text-base uppercase">
         <div className="cursor-pointer">
           <p>About</p>
         </div>
