@@ -7,7 +7,9 @@
 }
 
 body {
-  background-color: #843245;
+  background-image: url("/home-bg.jpg"); /* Use 'url()' to specify the image path */
+  background-size: cover; /* Ensures the background image covers the entire body */
   width: 100vw;
   overflow-x: hidden;
+  opacity: 0.8;
 }

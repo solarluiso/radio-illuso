@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="relative w-full text-[#571845] h-fit overflow-hidden flex items-center flex-col">
+        <div className="relative w-full h-full text-primary flex items-center flex-col">
           <Header />
           {children}
         </div>
