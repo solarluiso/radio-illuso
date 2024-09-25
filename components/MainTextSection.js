@@ -13,7 +13,7 @@ const MainTextSection = () => {
         <h1 className="leading-[.8] w-full text-white/60 text-wrap uppercase flex flex-row justify-end text-[26vw] font-extrabold">
           Radio
         </h1>
-        <p className="text-6xl text-[#ff5733] text-[6vw] mt-4 flex flex-1">
+        <p className="text-6xl text-amber-400 text-[6vw] mt-4 flex flex-1">
           ::: Live with us :::
         </p>
       </div>
