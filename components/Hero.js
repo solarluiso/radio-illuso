@@ -5,7 +5,7 @@ import Link from "next/link";
 import home1 from "../public/home1.png";
 import home2 from "../public/home2.jpg";
 
-const MainTextSection = () => {
+const Hero = () => {
   return (
     <div className="h-screen w-full px-5 font-sans flex items-center justify-between flex-col gap-5">
       <div className="flex pt-28 items-center justify-center flex-col md:gap-0 gap-2 w-fit">
@@ -25,7 +25,7 @@ const MainTextSection = () => {
         <p className="text-2xl sm:text-base font-mono font-extrabold uppercase">
           Welcome to Illuso Radio – Your Ultimate Space for Tuning!
         </p>
-        <p>
+        <p className="text-white/80 md:max-w-[60vw] lg:max-w-[40vw]">
           Our radio station is designed to help you feel in tune with life,
           guiding your day from sunrise to sunset, blending soul-soothing sounds
           and mind-sharpening content.
@@ -51,4 +51,4 @@ const MainTextSection = () => {
   );
 };
 
-export default MainTextSection;
+export default Hero;
