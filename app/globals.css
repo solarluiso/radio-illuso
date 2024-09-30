@@ -13,3 +13,16 @@ body {
   overflow-x: hidden;
   opacity: 0.8;
 }
+
+/* Neon text effect for the "Live with us" section */
+.neon-text {
+  color: #ff8c00; /* Neon orange color */
+  text-shadow: 0 0 4px #ff8c00, 0 0 6px #ff8c00, 0 0 8px rgba(255, 140, 0, 0.5); /* Fewer layers for a sharper effect */
+  transition: all 0.2s ease-in-out;
+}
+
+.neon-text:hover {
+  text-shadow: 0 0 6px #ff8c00, 0 0 10px #ff8c00,
+    0 0 12px rgba(255, 140, 0, 0.8); /* Slightly stronger glow on hover */
+  transform: scale(1.05);
+}

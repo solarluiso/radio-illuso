@@ -1,5 +1,7 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 import home1 from "../public/home1.png";
 import home2 from "../public/home2.jpg";
 
@@ -13,12 +15,14 @@ const MainTextSection = () => {
         <h1 className="leading-[.8] w-full text-white/60 text-wrap uppercase flex flex-row justify-end text-[26vw] font-extrabold">
           Radio
         </h1>
-        <p className="text-6xl text-amber-400 text-[6vw] mt-4 flex flex-1">
-          ::: Live with us :::
-        </p>
+        <Link href="/live">
+          <p className="text-6xl neon-text text-[6vw] mt-4 flex flex-1">
+            ::: Live with us :::
+          </p>
+        </Link>
       </div>
       <div className="flex flex-col gap-2 mt-6 text-white">
-        <p className="text-2xl sm:text-base font-mono font-extrabold">
+        <p className="text-2xl sm:text-base font-mono font-extrabold uppercase">
           Welcome to Illuso Radio – Your Ultimate Space for Tuning!
         </p>
         <p>
